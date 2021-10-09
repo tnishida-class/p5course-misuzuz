@@ -11,6 +11,6 @@ function draw() {
   triangle(0,108,106,108,106,0);
   fill(255);
   textSize(32);
-  textFont("serif");
-  text("46", 68, 100);
+  textFont("serif")
+  text("46",68,100);
 }
