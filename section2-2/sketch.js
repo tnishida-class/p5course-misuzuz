@@ -19,7 +19,7 @@ function setup() {
       strokeWeight(3)
     }
             else{
-      strokeWeight(1);
+      strokeWeight(0);
     }
     // ここまでの間になります
     let x = i * 10 + 10;
