@@ -11,6 +11,10 @@ function setup(){
 function draw(){
   background(160, 192, 255);
   count = (count + 1) % cycle;
+if(keyIsDown(" ".charCodeAt(0))){
+  count = (count + 2) % cycle;
+}
+
   // BLANK[1]
   if(count > 40 && count < 60){
   ellipse(width / 2, height / 2, count);
