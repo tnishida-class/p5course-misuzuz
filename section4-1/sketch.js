@@ -3,6 +3,7 @@ function setup(){
   createCanvas(400, 400);
   background(240);
 
+
   // 配列をランダムに初期化する
   let scores = [];
   for(let i = 0; i < 10; i++){
